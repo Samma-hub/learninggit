@@ -1,0 +1,917 @@
+*{
+    padding: 0;
+    margin: 0;
+ margin-right: 0;
+ margin-top: 0;
+ 
+
+ 
+  /* background-color: rgb(236, 236, 236); */
+}
+
+
+.header{
+width: 100%;
+height: 60px;
+display: block;
+background-color:#337ab7 ;
+ height:;
+padding-top:0px;
+margin: 0px;
+padding-right: 80px; 
+}
+.front{
+
+  
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+    color:rgb(236, 236, 236) ;
+    padding-left:260px ; 
+     padding-top:5px; 
+    
+    
+} 
+
+.topicon{
+    width: 100%;
+    font:  30px;
+    padding-top:4px;
+
+
+}
+button {
+    float: right;
+    margin: 10px;
+    height: 30px;
+    font-size: 10px;
+    margin-right: px;
+    color: gray;
+    width: 100px;
+    
+}
+.navbar{
+    width: 100%;
+    background-color: black;
+    overflow: auto;
+  }
+  .topicon{
+      position: absolute;
+      top: 19px;
+      left: 110px;
+      color: white;
+      font-size: 15px;
+  }
+  .icons{
+    position: absolute;
+    top: 17px;
+    left: 150px;
+    color: white;
+    font-size: 15px;
+    padding-top: 5px;
+  }
+  .three{
+    position: absolute;
+    top: 20px;
+    left: 190px;
+    color: white;
+    font-size: 15px;
+  }
+  .youtube{
+    position: absolute;
+    top: 17px;
+    left: 230px;
+    color: white;
+    font-size: 15px;
+    padding-top: 5px;
+
+  }
+  .whatsapp{
+    position: absolute;
+    top: 10px;
+    left: 270px;
+    /* color:greenyellow; */
+    color: white;
+    font-size: 25px;
+    padding-top: 5px;
+    
+    
+  }
+  .fa:hover{
+      background-color:#337ab7 ;
+      border: 6px solid;
+      color:rgb(9, 87, 110)
+      padding-top:5px;
+  }
+  .topnav {
+    /* overflow: hidden; */
+    background-color: lightgrey;
+    
+  }
+  
+  .topnav a {
+    float:right;
+    /* color: #f2f2f2; */
+    text-align: center;
+    padding: 54px;
+    text-decoration: none;
+    font-size: 17px;
+    padding-top: 20px;
+  padding-left: 100px;
+  
+  }
+  
+  
+  .topnav{
+     /* padding: 100px;  */
+     
+    background-color:red; 
+    width : 120%;
+    height: 100%;
+
+   
+    
+  }
+  /* .news{
+    position: absolute;
+    top: 60px;
+    left:75%;
+
+  } */
+  /* .home {
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    right: 20%;
+    
+
+  }
+  .donation{
+    position: absolute;
+    top: 60px;
+    right: 3%;
+  }
+.about{
+  position: absolute;
+  top: 60px;
+  right: 50%;
+} */
+/* .ab{
+  position: absolute;
+  top: 60px;
+  right: 43%;
+} */
+/* .se{
+  position: absolute;
+  top: 60px;
+  right: 32%;
+}
+.pro{
+  position: absolute;
+  top: 60px;
+  right: 22%;
+}
+.media{
+  position: absolute;
+  top: 60px;
+  right: 16%; 
+} */
+
+ .dog{
+
+background: rgb(236, 236, 236);
+padding-top: 50px;
+margin-top: -4%;
+height: 50px;
+
+
+ }
+.button {
+  position: fixed;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  font-weight: bold;
+  position: fixed;
+}
+
+.button:hover {
+ background-color:#337ab7 ;
+  color:white ;
+}
+.Donation{
+ 
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  position: absolute;
+  right: 100px;
+  top: 65px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+}
+.news{
+ 
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  position: absolute;
+  right: 215px;
+  top: 65px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.media{
+ 
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  position: absolute;
+  right: 330px;
+  top: 65px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.future{
+  
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  position: absolute;
+  right: 445px;
+  top: 65px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.service{
+  
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  position: absolute;
+  right: 550px;
+  top: 65px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.About{
+  /* background-color: #ddd; */
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  position: absolute;
+  right: 665px;
+  top: 65px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.home{
+  background-color:#337ab7;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  position: absolute;
+  right: 780px;
+  top: 65px;
+  font-weight: bold;
+  font-family: sans-serif;
+  
+}
+
+/* .logo{
+   height: 60px;
+   position: absolute;
+   left: 90px
+   
+} */
+
+.p{
+  
+  margin: 10px;
+  margin-left: 10%;
+}
+.black{
+  width: 100%;
+}
+.w3-container{
+  display: flex;
+  background:#56a2e6 ;
+  
+}
+.w3-blue{
+  width: 110%;
+  height: 500%;
+  box-sizing: border-box;
+}
+.i{
+  color:lawngreen;
+}
+.kuch{
+  position: absolute;
+  left: 500px;
+  top:190%;
+}
+.food{
+  position: absolute;
+  left: 120px;
+  top :190%;
+}
+.med{
+position: absolute;
+left: 850px;
+top:190%;
+}
+
+.edu{
+  position: absolute;
+left:1170px;
+top: 190%;
+}
+
+.co{
+  color: green;
+}
+.int{
+  color:#337ab7 ;
+}
+
+.logo{
+padding-left: 620px;
+
+}
+
+.what{
+  color:#337ab7 ;
+}
+.doing{
+  color:green;
+}
+.welfare{
+  display: flex;
+  z-index: -1;
+
+}
+.mad{ 
+  position: absolute;
+ margin-left: 68%; 
+ margin-top: 3%;
+ 
+ background-color:white;
+padding-top: 9%;
+ width:29%;
+ height:35%;
+ text-align: center;
+ box-shadow: 5px 10px 18px #888888;
+
+}
+.wel{
+  position: absolute;
+  margin-left: 36%;
+  margin-top: 3%;
+  background-color:white;
+  padding-top: 9%;
+  width:29%;
+  height:35%;
+  text-align: center;
+  box-shadow: 5px 10px 18px #888888;
+
+}
+.on{
+  position: absolute;
+  margin-left: 3%;
+  margin-top: 3%;
+  background-color:white;
+  padding-top: 9%;
+  width:29%;
+  height:35%;
+  text-align: center;
+  box-shadow: 5px 10px 18px #888888;
+  /* z-index: 1; */
+
+}
+/* logos */
+.sc{
+ 
+  position: absolute;
+   top: 1650px;
+   left: 200px; 
+   width: 70px;
+   
+}
+.we{
+  position: absolute;
+  top: 1650px;
+  left: 650px; 
+  width: 70px;
+}
+.al{
+  position: absolute;
+  top: 1650px;
+  left: 80%; 
+  width: 70px;
+}
+.ter{
+  position: absolute;
+ margin-left: 3%; 
+ margin-top: 21%;
+ background-color:white;
+padding-top: 9%;
+ width:29%;
+ height:35%;
+ text-align: center;
+ box-shadow: 5px 10px 18px #888888;
+}
+.ro{
+  position: absolute;
+  margin-left: 36%; 
+  margin-top: 21%;
+  background-color:white;
+ padding-top: 9%;
+  width:29%;
+  height:35%;
+  text-align: center;
+  box-shadow: 5px 10px 18px #888888;
+}
+.ca{
+  position: absolute;
+  margin-left: 68%; 
+  margin-top: 21%;
+  background-color:white;
+ padding-top: 9%;
+  width:29%;
+  height:35%;
+  text-align: center;
+  box-shadow: 5px 10px 18px #888888; 
+}
+.d{
+  position: absolute;
+   top: 1890px;
+   left: 190px; 
+   width: 70px; 
+}
+.r{
+  position: absolute;
+  top: 1890px;
+  left: 627px; 
+  width: 70px;   
+}
+.t{
+  position: absolute;
+  top: 1890px;
+  left: 1065px; 
+  width: 70px;   
+}
+ .hr{
+  width: 50px;
+  height: 1px;
+  border: 1px solid green;
+  background-color: green;
+  margin-left:40px;
+  margin-top: 5px;
+} 
+.lastone{
+  display: flex;
+}
+.hes{
+
+  position: absolute;
+  margin-left: 3%; 
+  margin-top: 1%;
+  background-color:rgb(238, 241, 241);
+ padding-top: 2%;
+  width:29%;
+  height:15%;
+  /* text-align: center; */
+  padding-left: 7%;
+border:1px solid rgb(221, 220, 220);
+  color: #1384ec;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ty{
+  
+  position: absolute;
+  margin-left: 36%; 
+  margin-top: 1%;
+  background-color:rgb(238, 241, 241);
+  
+ padding-top: 2%;
+  width:29%;
+  height:15%;
+  padding-left: 7%;
+  border:1px solid rgb(221, 220, 220);
+  color: #1384ec;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.cy{
+  
+  position: absolute;
+  margin-left: 3%; 
+  margin-top: 9%;
+  background-color:rgb(238, 241, 241);
+ padding-top: 2%;
+  width:29%;
+  height:15%;
+  padding-left: 7%;
+  border:1px solid rgb(221, 220, 220);
+  color: #1384ec;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.kar{
+  position: absolute;
+  margin-left: 36%; 
+  margin-top: 9%;
+  background-color:rgb(238, 241, 241);
+ padding-top: 2%;
+  width:29%;
+  height:15%;
+  padding-left: 7%;
+  border:1px solid rgb(221, 220, 220);
+  color: #1384ec;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+
+.h{
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+.ing{
+  position: absolute;
+  margin-left: 38%;
+  margin-top: 3%;
+}
+.it{
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 11%;
+
+}
+.ther{
+  position: absolute;
+  margin-left: 38%;
+  margin-top: 11%;
+}
+/* .up{
+  position: absolute;
+margin-top: 100%;
+text-align:right;
+margin-right: ; */
+ 
+
+/* } */
+.im{
+  position: absolute;
+text-align: center;
+margin-left: 43%;
+ margin-top:22% ;  
+}
+.ge{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #1384ec;
+}
+.ly{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: green;
+}
+.borderbox{
+  background: rgb(49, 49, 54);
+  padding-top: 50px;
+  padding-left:95px;
+  padding-bottom:5px ;
+  height:100%;
+  color: #adacac;
+}
+.use{
+  position: absolute; 
+  left: 680px;
+  padding-bottom: 17%;
+  color: white;   
+  font-size: large;
+ top: 445%;
+}
+.connect{
+ position: absolute;
+ left: 1020px;
+ top: 445%;
+  color: white; 
+  font-size: large;
+}
+.pn{
+  position: absolute;
+ left: 680px;
+top: 450%;
+  
+}
+.king{
+  position: absolute;
+  left: 1030px;
+  top: 451%;
+  color: white;
+  
+}
+.twi{
+  position: absolute;
+  left: 1070px;
+  top: 451%;
+  height: 10px;
+  color: white; 
+}
+.inta{
+  position: absolute;
+  left: 1110px;
+  top: 451%;
+  height: 10px;
+  
+}
+.you{
+  position: absolute;
+  left: 1150px;
+  top: 451%;
+  height: 10px;
+  
+}
+
+.sylan {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background-color:#1384ec ;
+  color: white;
+  padding-left: 7%;
+  padding-top: -1%;
+ top: 99%;
+}
+/* footer {
+  background-color:#1384ec ;
+  padding: 10px;
+  padding-left: 50px;
+
+  width: 100%;
+  text-align: left;
+  color: white;
+} */
+.DAILYDASTRAKHAN{
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 150px;
+  font-size: 1em;
+}
+.FAMILYDOPTION{
+  position: absolute;
+  margin-left: 440px;
+  margin-top: 150px;
+  font-size: 1em;
+}
+.medical{
+  position: absolute;
+  margin-left:800px;
+  margin-top: 150px;
+  font-size: 1em;
+}
+.EDUCATION{
+  position: absolute;
+  margin-left:1100px;
+  margin-top: 150px;
+  font-size: 1em;
+}
+/* .small{
+  background: #1384ec;
+  height: 50%;
+} */
+.bottom_nav{
+  background:#1384ec ;
+  height: 50px;
+}
+.c{
+  position: absolute;
+  left: 7%;
+  top: 485%;
+  font-size:smaller ;
+  color: black;
+}
+.logo4{
+  position: fixed;
+  position: absolute;
+  height: 50px;
+  left: 90px;
+  top: 9%;
+}
+  ul :hover{
+  background-color:#337ab7 ;
+color: white;
+}
+.arro1{
+  float: right;
+  margin-top: 4px;
+}
+.arro2{
+  float: right;
+  margin-right: -14px;
+  margin-top: 4px;
+}
+.cell{
+  position: absolute;
+  top: 460%;
+}
+.pl{
+  margin-left:18%;
+  margin-top:-7px;
+
+}
+
+/* .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+} */
+.com{
+  position: relative;
+  left: 920px;
+  bottom: 220px;
+  
+}
+
+/* .box{
+  display: block;
+  float: left;
+  width: 220px;
+  margin-top: 30%;
+ 
+}
+images.{
+  width: 100%;
+} */
+
+
+
+/* .div1{
+  width: 110%;
+  height: 300%;  
+  padding: 50px;
+  background-color:rgb(138, 133, 133);
+  margin-top: 55%;
+}
+.head{
+  color: rgb(247, 245, 245);
+}
+.bahad{
+  color: rgb(247, 245, 245);
+}
+.uan{
+  color: rgb(247, 245, 245);
+margin: 5px;
+margin-left: 10%;
+column-count: 2;
+column-gap:40px ;
+}
+.cell{
+  color: rgb(247, 245, 245);
+margin: 5px;
+margin-left: 10%;
+}
+.usa{
+  color: rgb(247, 245, 245);
+  margin: 5px;
+  margin-left: 10%;
+}
+.uk{
+  color: rgb(247, 245, 245);
+  margin: 5px;
+  margin-left: 10%;
+}
+.info{
+  color: rgb(247, 245, 245);
+  margin: 5px;
+  margin-left: 10%;
+} */
+/* .plus{
+  color: rgb(247, 245, 245);
+ text-align: center;
+ display: grid;
+ grid-template-columns:2fr 2fr ;
+ grid-gap: 5rem;
+position: absolute;
+top: 141%;
+left: 15%;
+} */
+/* .use{
+  color:white;
+  position: absolute;
+  top:129% ;
+  left: 30%;
+} */
+/* .con{
+  color:white;
+  position: absolute;
+  top:128% ;
+  left: 63%;
+} */
+/* men{
+  color:green;
+  position: absolute;
+  top:128% ;
+  left: 63%; 
+  right: 15px;
+} */
+
+
+
+
+
+
+
+
+ /* .progrees_wrap{
+background: white;
+height: 3px;
+width: 30%;
+position: absolute;
+top: 135%;
+left: 40%;
+}
+.progrees_wrap.progrees_bar{
+  display: block;
+  height: 10%;
+  background:red;
+  width: 10%;
+}  */
+.phone{
+  color:green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  height:10%;
+} */
