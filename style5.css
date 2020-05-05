@@ -518,6 +518,14 @@ padding-top: 9%;
   margin-left:40px;
   margin-top: 5px;
 } 
+.hr{
+  width: 50px;
+  height: 1px;
+  border: 1px solid green;
+  background-color: green;
+  margin-left:40px;
+  margin-top: 5px;
+} 
 .lastone{
   display: flex;
 }
